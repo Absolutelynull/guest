@@ -1,0 +1,25 @@
+#member #member_message_detail{
+    width: 590px;
+    height: 500px;
+    margin: 15px;
+    border: 1px dashed #999;
+    float: right;
+}
+#member #member_message_detail dl{
+    margin: 10px 20px;
+}
+#member #member_message_detail dl dd{
+    margin: 5px;
+    line-height: 150%;
+}
+#member #member_message_detail dl dd input{
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+#member #member_message_detail dl dd.button{
+    text-align: center;
+    margin: 0 20px 0 20px;
+}

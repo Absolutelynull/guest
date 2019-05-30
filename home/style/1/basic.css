@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+body{
+    background: #fff;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+ul{
+    list-style-type: none;
+}
+h2{
+    font-size: 12px;
+    background-color: #eee;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+}
+
+#header{
+    width: auto;
+    height: 150px;
+    border: 2px solid #ccc;
+    margin: 10px 0;
+}
+#header h1{
+    height: 80px;
+    width: 250px;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+}
+#header  h1 a{
+    height: 50px;
+    width: 220px;
+    display: block;
+}
+#header  h1 a img{
+    margin: 40px 0 0 20px;
+}
+
+#header ul{
+    text-align: right;
+    padding:0 50px 0 0 ;
+    margin: 25px 0 30px 0;
+}
+#header ul li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+#header ul li a{
+    text-decoration: none;
+    color: #333;
+
+}
+#header ul li a:hover{
+    color: #096eff;
+    text-decoration: underline;
+}
+#page_num{
+    height: 20px;
+    clear: both;
+    padding: 10px 0 ;
+    position: relative;
+}
+#page_num ul{
+    position: absolute;
+    right: 10px;
+    height: 20px;
+    margin: 20px 0 0 0;
+}
+
+#page_num ul li{
+    float: left;
+    width: 24px;
+    height: 20px;
+
+}
+#page_num ul li a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-decoration: none;
+
+}
+#page_num ul li a:hover{
+    background: #666;
+    font-weight: bold;
+    color: #ffffff;
+}
+#page_text{
+    height: 20px;
+    clear: both;
+    padding: 10px 0;
+}
+#page_text ul{
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+#page_text ul li{
+    display: inline;
+}
+#page_text ul li a{
+    margin:  0 5px;
+    color: #6c6c6c;
+}
+
+
+#member h2{
+    text-align: center;
+    text-indent: 0;
+    height: 30px;
+    line-height: 30px;
+}
+#member #member_sidebar{
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    border: 1px dashed #999;
+    float: left;
+}
+#member #member_sidebar dl{
+    width:250px;
+    background: #DD0000;
+    margin: 15px auto;
+}
+#member #member_sidebar dl dt{
+    height: 40px;
+    line-height: 40px;
+    background: #999;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+#member #member_sidebar dl dd{
+    height: 40px;
+    line-height: 40px;
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+#member #member_sidebar dl dd a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+#member #member_sidebar dl dd a:hover{
+    cursor: pointer;
+    background: #ccc;
+}
+#footer{
+    width:auto;
+    height: 80px;
+    clear: both;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    padding: 5px 0 0 0;
+}
+#footer p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 0 0 5px;
+    
+}
+#footer p span{
+    color: #096eff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+

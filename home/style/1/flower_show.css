@@ -1,0 +1,18 @@
+#member #member_message{
+    width: 590px;
+    height: 500px;
+    margin: 15px;
+    border: 1px dashed #999;
+    float: right;
+}
+#member #member_message table{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    background: #ccc;
+}
+#member #member_message table th,#member #member_message table td{
+    height: 25px;
+    line-height: 25px;
+    background: #fff;
+}

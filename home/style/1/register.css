@@ -1,0 +1,62 @@
+#register{
+    width: auto;
+    height: 600px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+#register h2{
+    background-color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+#register dl{
+    width: 400px;
+    margin: 0 auto;
+}
+#register dl dt{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    
+}
+#register dl dd span{
+    color: #b8b6b1;
+    margin: 0 0 0 10px;
+
+}
+
+#register dl dd{
+    padding: 5px 0;
+}
+#register dl dd input.text{
+    width: 160px;
+    height: 19px;
+    border: 1px dashed #ccc;
+}
+#register dl dd input.code{
+    width: 60px;
+}
+#register dl dd.face{
+    padding: 5px 0 5px 120px;
+
+}
+#register dl dd input.submit{
+    width: 60px;
+    height: 40px;
+    border: 1px dashed #ccc;
+    margin:  0 0 0 20px;
+    cursor: pointer;
+    background: #e1e1e1;
+    color: rgba(140, 140, 140, 0.8);
+}
+#register dl dd img.face{
+    padding:  0 0 0 100px;
+    cursor: pointer;
+}
+#register dl dd img#code{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+
